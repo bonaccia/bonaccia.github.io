@@ -1,0 +1,27 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+  font-size: small;
+}
+table {
+  table-layout: fixed;
+  width: 300px;
+}
+td, th {
+  text-align: left;
+  overflow: hidden;
+}
+td:nth-child(2)
+, th:nth-child(2)
+{
+  text-align: right;
+  width: 75px;
+}
+thead {
+  background-color:MediumSeaGreen;
+  color:white;
+}
+tfoot{
+  background-color:PaleGoldenrod;
+}
+</style>
+
